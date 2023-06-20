@@ -1,0 +1,924 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Ayam Takol",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-takol.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Ayam Penyet",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-penyet.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Ayam Pedas Manis",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-pedas-manis.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Ayam Goreng",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "nasi-ayam-goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Mie Goreng",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Mie Goreng Telur",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "mie-goreng-telur.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Mie Kuah",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "mie-kuah.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Mie Kuah Telur",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "mie-kuah-telur.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Nasi Telur",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "nasi-telur.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-10",
+      "nama": "Nasi Goreng",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "nasi-goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-11",
+      "nama": "Nasi Goreng Telur",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-12",
+      "nama": "Nutrisari",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "nutri-sari.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-13",
+      "nama": "Teh Tarik",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "teh-tarik.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-14",
+      "nama": "Xtra Joss",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "xtra-joss.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-15",
+      "nama": "Pop Ice",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "pop-ice.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-16",
+      "nama": "Jus Alpukat",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "jus-alpukat.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-17",
+      "nama": "Wedang Jahe",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "wedang-jahe.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-18",
+      "nama": "Kopi Susu",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "kopi-susu.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-19",
+      "nama": "Drink Beng-beng",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "beng-beng.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-20",
+      "nama": "Energen",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "energen.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-21",
+      "nama": "Es Coklat",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "es-coklat.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "K-22",
+      "nama": "Susu",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "susu-putih.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "K-23",
+      "nama": "Floridina",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "floridina.png",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-24",
+      "nama": "Chocolatos",
+      "harga": 500,
+      "is_ready": true,
+      "gambar": "chocolatos.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "K-25",
+      "nama": "Sosis So Nice",
+      "harga": 500,
+      "is_ready": true,
+      "gambar": "sosis-sonice.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 26,
+      "kode": "K-26",
+      "nama": "Stick Appetito",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "stick-appetito.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 27,
+      "kode": "K-27",
+      "nama": "Ahh Nabati",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "wafer-ahh-nabati.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 28,
+      "kode": "K-28",
+      "nama": "Wafer Tango",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "wafer-tango.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 29,
+      "kode": "K-29",
+      "nama": "Roti Aoka",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "roti-aoka.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_bayar": 60000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 32000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "Semuanya Pedas",
+          "id": 1
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 28000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Goreng Telur",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 16000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 16000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 30000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 16000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Ayam Takol",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "test",
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 14000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Goreng Telur",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 107000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Ayam Takol",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-takol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Ayam Penyet",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-penyet.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ayam Pedas Manis",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-pedas-manis.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 18000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Ayam Goreng",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-goreng.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 6000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Mie Goreng",
+            "harga": 6000,
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 5
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Mie Goreng Telur",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "mie-goreng-telur.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 6
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 6000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Mie Kuah",
+            "harga": 6000,
+            "is_ready": true,
+            "gambar": "mie-kuah.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 7
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 6000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Mie Kuah Telur",
+            "harga": 6000,
+            "is_ready": true,
+            "gambar": "mie-kuah-telur.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 8
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 9,
+            "kode": "K-09",
+            "nama": "Nasi Telur",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "nasi-telur.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 9
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_bayar": 34000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 34000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Ayam Takol",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-takol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "total_bayar": 500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 500,
+          "product": {
+            "id": 24,
+            "kode": "K-24",
+            "nama": "Chocolatos",
+            "harga": 500,
+            "is_ready": true,
+            "gambar": "chocolatos.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "total_bayar": 28000,
+      "menus": [
+        {
+          "jumlah": 3,
+          "total_harga": 18000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Mie Goreng",
+            "harga": 6000,
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 9,
+            "kode": "K-09",
+            "nama": "Nasi Telur",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "nasi-telur.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 7
+    },
+    {
+      "total_bayar": 17000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Ayam Takol",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-takol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "total_bayar": 36500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ayam Pedas Manis",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-pedas-manis.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Mie Goreng Telur",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "mie-goreng-telur.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 6000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Mie Kuah Telur",
+            "harga": 6000,
+            "is_ready": true,
+            "gambar": "mie-kuah-telur.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 500,
+          "product": {
+            "id": 25,
+            "kode": "K-25",
+            "nama": "Sosis So Nice",
+            "harga": 500,
+            "is_ready": true,
+            "gambar": "sosis-sonice.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 3000,
+          "product": {
+            "id": 29,
+            "kode": "K-29",
+            "nama": "Roti Aoka",
+            "harga": 3000,
+            "is_ready": true,
+            "gambar": "roti-aoka.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 9
+    },
+    {
+      "total_bayar": 51500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ayam Pedas Manis",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-pedas-manis.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 17000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Ayam Takol",
+            "harga": 17000,
+            "is_ready": true,
+            "gambar": "nasi-ayam-takol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": 13,
+            "kode": "K-13",
+            "nama": "Teh Tarik",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "teh-tarik.png",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "product": {
+            "id": 16,
+            "kode": "K-16",
+            "nama": "Jus Alpukat",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "jus-alpukat.png",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 500,
+          "product": {
+            "id": 24,
+            "kode": "K-24",
+            "nama": "Chocolatos",
+            "harga": 500,
+            "is_ready": true,
+            "gambar": "chocolatos.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 10
+    }
+  ]
+}
